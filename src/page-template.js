@@ -6,7 +6,7 @@ const generateCards = (teamData) => {
            <div class="card">
               <div class="card-body">
                 <h2>${job.name}</h2>
-                <h4>Manager<h4>
+                <h4 class="text-success">Manager<h4>
                 <p>ID: ${job.id}</p>
                 <p>Email: <a href="mailto:${job.email}">${job.email}</a></p>
                 <p>Office Number: ${job.office}</p>
@@ -25,7 +25,7 @@ const generateCards = (teamData) => {
             <div class="card">
               <div class="card-body">
                 <h2>${job.name}</h2>
-                <h4>Engineer<h4>
+                <h4 class="text-success">Engineer<h4>
                 <p>ID: ${job.id}</p>
                 <p>Email: <a href="mailto:${job.email}">${job.email}</a></p>
                 <p> Github: <a href="https://github.com/${job.github}" target="_blank">${job.github}</a></p>
@@ -43,7 +43,7 @@ const generateCards = (teamData) => {
                 <div class="card">
                     <div class="card-body">
                       <h2 class="card-title">${job.name}</h2>
-                      <h4>Intern<h4>
+                      <h4 class="text-success">Intern<h4>
                       <p>ID: ${job.id}</p>
                       <p>Email: <a href="mailto:${job.email}">${job.email}</a></p>
                       <p> School: ${job.school}</p>
